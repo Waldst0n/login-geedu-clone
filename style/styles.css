@@ -150,6 +150,7 @@ footer {
   height: 30px;
   background: #fff;
   position: absolute;
+
   bottom: 0;
   left: 0;
 }
@@ -166,5 +167,9 @@ footer {
 
   .recaptcha-container {
     width: 15em;
+  }
+
+  footer {
+    display: none;
   }
 }
