@@ -159,7 +159,9 @@ footer {
   width: 68px;
 }
 
-@media (max-width: 767px) {
+/* celulares */
+
+@media (max-width: 425px) {
   .container {
     width: 90%;
     height: 50vh;
@@ -171,5 +173,61 @@ footer {
 
   footer {
     display: none;
+  }
+}
+
+/* Tablets */
+
+@media (min-width: 426px) and (max-width: 768) {
+  .container {
+    width: 90%;
+    height: 50vh;
+  }
+
+  .recaptcha-container {
+    width: 15em;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+/* Notebooks até 1440px */
+
+@media (min-width: 769px) and (max-width: 1440px) {
+  .container-allign {
+    width: 100%;
+  }
+
+  .container {
+    width: 40%;
+    height: 387px;
+  }
+
+  .recaptcha-container {
+    width: 15em;
+  }
+
+  .logo-img {
+    max-width: 20%;
+  }
+}
+
+@media (min-width: 1441px) {
+  .container-allign {
+    width: 100%;
+  }
+
+  .container {
+    width: 40%;
+    height: 387px;
+  }
+
+  .recaptcha-container {
+    width: 15em;
+  }
+  .logo-img {
+    width: 20%;
   }
 }
