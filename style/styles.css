@@ -157,3 +157,13 @@ footer {
 .footer-img {
   width: 68px;
 }
+
+@media (max-width: 767px) {
+  .container {
+    width: 90%;
+  }
+
+  .recaptcha-container {
+    width: 15em;
+  }
+}
