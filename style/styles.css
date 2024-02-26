@@ -161,6 +161,7 @@ footer {
 @media (max-width: 767px) {
   .container {
     width: 90%;
+    height: 50vh;
   }
 
   .recaptcha-container {
